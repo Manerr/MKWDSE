@@ -1,0 +1,57 @@
+@media all and (max-width:30rem){
+	
+	body .button{
+		width: 8rem;
+		height: 2.48rem;
+		font-size: .8rem;
+		border-radius: .3rem;
+	}
+
+	body.index figcaption h1{
+		font-size: .8rem !important;
+		margin-top: .5rem !important;
+	}
+
+
+}
+
+
+@media all and (max-width:960px){
+
+	.svgicon{
+		width: 2.5rem;
+		height: 2.5rem;
+	}
+
+	#second-main{
+		width: 95%;
+	}
+
+	#download button{
+		width: 48%;
+	}
+
+
+}
+
+
+@media all and (max-width:875px){
+
+	#second-main{
+		align-items: center;
+		flex-direction: column !important;
+		flex-direction: column-reverse !important;
+	}
+
+	#second-main article{
+		width: unset;
+	}
+
+
+	footer h2{
+		font-size: .9rem !important;
+	}
+
+
+
+}
